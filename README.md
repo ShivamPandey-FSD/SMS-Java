@@ -30,21 +30,17 @@ A full-stack Student Management System built with **Java, Spring Boot, React, an
 | Teacher | Work with student attendance and marks |
 | Student | Access student-related academic information according to permissions |
 
-> Exact permissions depend on the security rules configured in your project.
-
 ## Project Structure
 
 The repository may contain separate frontend and backend directories:
 
 ```text
-student-management-system/
+SMS-Java/
 ├── student-management-backend/        # Spring Boot REST API
 ├── student-management-frontend/       # React application
 ├── screenshots/
 └── README.md
 ```
-
-> Adjust the folder names above to match your GitHub repository.
 
 ## Getting Started
 
@@ -62,8 +58,6 @@ git clone https://github.com/YOUR_USERNAME/SMS-Java.git
 cd SMS-Java
 ```
 
-Replace the placeholder URL with your actual SMS repository URL.
-
 ### 2. Configure the database
 
 Create a MySQL database:
@@ -80,8 +74,6 @@ spring.datasource.username=${DB_USERNAME:root}
 spring.datasource.password=${DB_PASSWORD:}
 spring.jpa.hibernate.ddl-auto=update
 ```
-
-Use environment variables for passwords and JWT secrets. **Do not commit credentials or secret keys.**
 
 ### 3. Run the backend
 
@@ -150,5 +142,3 @@ GitHub: [ShivamPandey-FSD](https://github.com/ShivamPandey-FSD)
 LinkedIn: [Shivam Pandey](https://www.linkedin.com/in/shivam-pandey-37779934a/)
 
 ---
-
-**Note:** Update placeholder repository paths, configuration values, and screenshots to match your codebase before publishing.
